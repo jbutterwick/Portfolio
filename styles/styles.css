@@ -9,26 +9,31 @@ ul {
 h1 {
   font-family: "Cormorant";
   font-size: 4em;
+  font-weight: 100;
 }
 
 h2 {
   font-family: "Cormorant";
   font-size: 1.6em;
+  font-weight: 100;
 }
 
 h3 {
   font-family: "Cormorant";
+  font-weight: 100;
 }
 
 @media (max-width: 1000px) {
   h1 {
     font-size: 3em;
+    font-weight: 100;
   }
 }
 
 @media (max-width: 600px) {
   h1 {
     font-size: 2em;
+    font-weight: 100;
   }
 }
 /* --------- nav styles --------*/
