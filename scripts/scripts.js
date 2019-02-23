@@ -27,6 +27,7 @@ var submit = document
         var lyrics = data.lyrics.replace(/\n/g, "<br />");
         results.innerHTML = "<h2>Results:</h2>" + "<p>" + lyrics + "</p>";
         hero2.innerHTML;
+        window.scrollBy(0, 1000);
         console.log(data);
       });
   });

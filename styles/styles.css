@@ -10,17 +10,26 @@ h1 {
   font-family: "Cormorant";
   font-size: 4em;
   font-weight: 100;
+  color: rgb(33, 33, 33);
 }
 
 h2 {
   font-family: "Cormorant";
-  font-size: 1.6em;
+  font-size: 2em;
   font-weight: 100;
+  color: rgb(33, 33, 33);
 }
 
 h3 {
   font-family: "Cormorant";
   font-weight: 100;
+  color: rgb(33, 33, 33);
+}
+
+p {
+  color: rgb(33, 33, 33);
+  font-family: "Montserrat";
+  font-size: 1em;
 }
 
 @media (max-width: 1000px) {
@@ -51,9 +60,10 @@ nav li {
 
 nav .link {
   text-decoration: none;
-  color: black;
+  color: rgb(33, 33, 33);
   font-family: "Montserrat";
   font-size: 1.4em;
+  margin-left: 6px;
 }
 
 nav .link:hover {
@@ -74,140 +84,6 @@ nav .link:hover {
   /* nav li {
     margin-right: 500px;
   } */
-}
-
-/* --------main page content--------- */
-
-.content {
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  flex-wrap: wrap;
-}
-
-.content h1 {
-  margin-bottom: 0px;
-}
-
-.quote-selector {
-  border: none;
-  background: transparent;
-}
-
-.icon:hover {
-  color: #75e29d;
-}
-
-.hero {
-  margin: 0;
-  height: 100vh;
-  clip-path: polygon(0px 90%, 100% 70%, 100% 0px, 0px 0px);
-  background-image: linear-gradient(to top, #55408a75 0%, #ffb4ea65 100%),
-    url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
-
-.hero-background .link {
-  text-decoration: none;
-  color: black;
-  font-family: "Montserrat";
-  font-size: 1.4em;
-}
-
-.hero-background .link:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  background-image: linear-gradient(130deg, #43da7a 0%, #389dcf 100%);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-/* -------lyric fetcher content------ */
-.hero-2 {
-  margin: 0;
-  height: 100vh;
-  clip-path: polygon(0px 70%, 100% 90%, 100% 0px, 0px 0px);
-  background-image: linear-gradient(to top, #40af9375 0%, #4175d665 100%),
-    url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
-
-.hero-background-2 .link {
-  text-decoration: none;
-  color: black;
-  font-family: "Montserrat";
-  font-size: 1.4em;
-}
-
-.hero-background-2 .link:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  background-image: linear-gradient(130deg, #43da7a 0%, #389dcf 100%);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-#results p {
-  font-size: 1em;
-  font-family: "Montserrat";
-}
-
-#submit {
-  background-color: transparent;
-  color: rgb(0, 0, 0);
-  padding: 16px;
-  font-size: 1.2em;
-  font-family: "Montserrat";
-  border-color: transparent;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-label {
-  font-size: 1.2em;
-  font-family: "Montserrat";
-}
-
-/* -------quotes styles------- */
-
-.quotebuttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-/* ---------- footer styles ---------- */
-
-.footer {
-  max-width: 1000px;
-  margin: auto;
-  margin-top: 200px;
-  margin-bottom: 250px;
-}
-
-footer a {
-  color: black;
-}
-
-.footer-links {
-  max-width: 1000px;
-  margin: 0, auto;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 /*  -------- Dropdown Styles ------ */
@@ -266,4 +142,159 @@ footer a {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
   display: block;
+}
+
+/* --------main page content--------- */
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+
+.content h1 {
+  margin-bottom: 0px;
+}
+
+.quote-selector {
+  border: none;
+  background: transparent;
+}
+
+.icon:hover {
+  color: #75e29d;
+}
+
+.hero {
+  margin: 0;
+  height: 100vh;
+  clip-path: polygon(0px 90%, 100% 70%, 100% 0px, 0px 0px);
+  background-image: linear-gradient(to top, #55408a75 0%, #ffb4ea65 100%),
+    url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-background .link {
+  text-decoration: none;
+  color: rgb(33, 33, 33);
+  font-family: "Montserrat";
+  font-size: 1.4em;
+}
+
+.hero-background .link:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  background-image: linear-gradient(130deg, #43da7a 0%, #389dcf 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* -------lyric fetcher content------ */
+.hero-2 {
+  margin: 0;
+  height: 100vh;
+  clip-path: polygon(0px 70%, 100% 90%, 100% 0px, 0px 0px);
+  background-image: linear-gradient(to top, #40af9375 0%, #4175d665 100%),
+    url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-background-2 .link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 1.4em;
+}
+
+.hero-background-2 .link:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  background-image: linear-gradient(130deg, #43da7a 0%, #389dcf 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.hero-background-2 .plink {
+  text-decoration: none;
+  color: rgb(33, 33, 33);
+  font-family: "Montserrat";
+  font-size: 1em;
+}
+
+.hero-background-2 .plink:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  background-image: linear-gradient(130deg, #da43a8 0%, #9338cf 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+#results p {
+  font-size: 1em;
+  font-family: "Montserrat";
+}
+
+#submit {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 1.2em;
+  font-family: "Montserrat";
+  border-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 10px 16px 1px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.45s;
+}
+
+#submit:hover {
+  background-color: rgba(109, 109, 109, 0.082);
+  box-shadow: 1px 10px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  font-size: 1.2em;
+  font-family: "Montserrat";
+}
+
+/* -------quotes styles------- */
+
+.quotebuttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* ---------- footer styles ---------- */
+
+.footer {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 250px;
+}
+
+footer a {
+  color: black;
+}
+
+.footer-links {
+  max-width: 1000px;
+  margin: 0, auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
