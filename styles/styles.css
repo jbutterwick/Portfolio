@@ -173,8 +173,7 @@ nav .link:hover {
   margin: 0;
   height: 100vh;
   clip-path: polygon(0px 90%, 100% 70%, 100% 0px, 0px 0px);
-  background-image: linear-gradient(to top, #55408a75 0%, #ffb4ea65 100%),
-    url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
+  background-image: url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -201,8 +200,7 @@ nav .link:hover {
   margin: 0;
   height: 100vh;
   clip-path: polygon(0px 70%, 100% 90%, 100% 0px, 0px 0px);
-  background-image: linear-gradient(to top, #40af9375 0%, #4175d665 100%),
-    url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
+  background-image: url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
