@@ -3,33 +3,34 @@
 body {
   margin: 25px;
 }
+
 ul {
   list-style: none;
 }
 
 h1 {
-  font-family: "Cormorant";
+  font-family: "Lora";
   font-size: 4em;
   font-weight: 100;
   color: #252525;
 }
 
 h2 {
-  font-family: "Cormorant";
+  font-family: "Lora";
   font-size: 2em;
   font-weight: 100;
   color: #252525;
 }
 
 h3 {
-  font-family: "Cormorant";
+  font-family: "Lora";
   font-weight: 100;
   color: #252525;
 }
 
 p {
   color: #252525;
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   font-size: 1em;
 }
 
@@ -46,6 +47,7 @@ p {
     font-weight: 100;
   }
 }
+
 /* --------- nav styles --------*/
 
 .nav-bar {
@@ -62,7 +64,7 @@ nav li {
 nav .link {
   text-decoration: none;
   color: #252525;
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   font-size: 1.4em;
   margin-left: 6px;
 }
@@ -82,6 +84,7 @@ nav .link:hover {
     flex-direction: column;
     align-content: center;
   }
+
   /* nav li {
     margin-right: 500px;
   } */
@@ -93,7 +96,7 @@ nav .link:hover {
 .dropbtn {
   background-color: transparent;
   color: #252525;
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   font-size: 1.4em;
   border-color: transparent;
   border-radius: 10px;
@@ -122,7 +125,7 @@ nav .link:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(248, 248, 248, 0.65);
+  background-color: rgba(255, 255, 255, 0.815);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -130,6 +133,7 @@ nav .link:hover {
 
 /* Links inside the dropdown */
 .dropdown-content a {
+  font-family: "Open Sans";
   color: #252525;
   padding: 12px 16px;
   text-decoration: none;
@@ -138,7 +142,12 @@ nav .link:hover {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: rgb(255, 255, 255, 0.8);
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  background-image: linear-gradient(130deg, #43da7a 0%, #389dcf 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -182,9 +191,9 @@ nav .link:hover {
 
 .hero {
   margin: 0;
-  height: 100vh;
-  clip-path: polygon(0px 90%, 100% 70%, 100% 0px, 0px 0px);
-  background-image: url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
+  height: 65vh;
+  clip-path: polygon(0px 100%, 100% 70%, 100% 0px, 0px 0px);
+  background: #B9ABE7;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -193,7 +202,7 @@ nav .link:hover {
 .hero-background .link {
   text-decoration: none;
   color: rgb(33, 33, 33);
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   font-size: 1.4em;
 }
 
@@ -211,7 +220,7 @@ nav .link:hover {
   margin: 0;
   height: 100vh;
   clip-path: polygon(0px 70%, 100% 90%, 100% 0px, 0px 0px);
-  background-image: url("../assets/photos/matt-holmes-1329881-unsplash.jpg");
+  background: #B9ABE7;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -220,7 +229,7 @@ nav .link:hover {
 .hero-background-2 .link {
   text-decoration: none;
   color: #252525;
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   font-size: 1.4em;
 }
 
@@ -232,10 +241,11 @@ nav .link:hover {
   background-clip: text;
   -webkit-background-clip: text;
 }
+
 .hero-background-2 .plink {
   text-decoration: none;
   color: rgb(33, 33, 33);
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   font-size: 1em;
 }
 
@@ -250,7 +260,7 @@ nav .link:hover {
 
 #results p {
   font-size: 1em;
-  font-family: "Montserrat";
+  font-family: "Open Sans";
 }
 
 #submit {
@@ -258,7 +268,7 @@ nav .link:hover {
   color: #252525;
   padding: 16px;
   font-size: 1.2em;
-  font-family: "Montserrat";
+  font-family: "Open Sans";
   border-color: transparent;
   border-radius: 10px;
   cursor: pointer;
@@ -273,7 +283,7 @@ nav .link:hover {
 
 label {
   font-size: 1.2em;
-  font-family: "Montserrat";
+  font-family: "Open Sans";
 }
 
 /* -------quotes styles------- */
@@ -291,8 +301,7 @@ label {
 .footer {
   max-width: 1000px;
   margin: auto;
-  margin-top: 200px;
-  margin-bottom: 250px;
+  margin-top: 100px;
 }
 
 footer a {

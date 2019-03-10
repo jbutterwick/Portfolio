@@ -1,5 +1,8 @@
 {
+  "name": "JordanWB Portfolio",
   "version": 2,
-  "builds": [{ "use": "@now/static" }],
+  "builds": [{
+    "use": "@now/static"
+  }],
   "alias": ["jordanwb.design", "www.jordanwb.design"]
 }
