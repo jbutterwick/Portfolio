@@ -274,12 +274,18 @@ nav .link:hover {
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 1px 10px 16px 1px rgba(0, 0, 0, 0.2);
-  transition-duration: 0.45s;
+  transition-duration: 0.2s;
 }
 
 #submit:hover {
   background-color: rgba(109, 109, 109, 0.082);
-  box-shadow: 1px 10px 16px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 8px 14px 1px rgba(0, 0, 0, 0.3);
+  top: 2px;
+}
+
+#submit:active {
+  box-shadow: 0 0 rgba(0, 0, 0, 0.2);
+  top: 6px;
 }
 
 label {
