@@ -51,6 +51,8 @@ p {
 /* --------- nav styles --------*/
 
 .nav-bar {
+  width: 900px;
+  margin: 25px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -66,7 +68,7 @@ nav .link {
   color: #252525;
   font-family: "Open Sans";
   font-size: 1.4em;
-  margin-left: 6px;
+  margin-left: 7px;
 }
 
 nav .link:hover {
@@ -78,16 +80,12 @@ nav .link:hover {
   -webkit-background-clip: text;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .nav-bar {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-content: left;
   }
-
-  /* nav li {
-    margin-right: 500px;
-  } */
 }
 
 /*  -------- Dropdown Styles ------ */
@@ -185,15 +183,12 @@ nav .link:hover {
   background: transparent;
 }
 
-.icon:hover {
-  color: #75e29d;
-}
-
 .hero {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 75%;
   height: 65vh;
   clip-path: polygon(0px 100%, 100% 70%, 100% 0px, 0px 0px);
-  background: #B9ABE7;
+  background: #dfd5ff;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -215,12 +210,18 @@ nav .link:hover {
   -webkit-background-clip: text;
 }
 
+@media (max-width: 1000px) {
+  .hero {
+    max-width: 100%;
+  }
+}
+
 /* -------lyric fetcher content------ */
 .hero-2 {
   margin: 0;
   height: 100vh;
   clip-path: polygon(0px 70%, 100% 90%, 100% 0px, 0px 0px);
-  background: #B9ABE7;
+  background: #b9abe7;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -304,6 +305,10 @@ label {
   margin-top: 100px;
 }
 
+footer ul {
+  padding: 0;
+}
+
 footer a {
   color: #252525;
 }
@@ -315,4 +320,8 @@ footer a {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.icon:hover {
+  color: #75e29d;
 }
