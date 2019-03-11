@@ -161,8 +161,7 @@ nav .link:hover {
   text-align: center;
   display: flex;
   justify-content: center;
-  flex-flow: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
 }
 
 .content h1 {
@@ -218,10 +217,11 @@ nav .link:hover {
 
 /* -------lyric fetcher content------ */
 .hero-2 {
-  margin: 0;
-  height: 100vh;
+  margin: 0 auto;
+  max-width: 75%;
+  height: 65vh;
   clip-path: polygon(0px 70%, 100% 90%, 100% 0px, 0px 0px);
-  background: #b9abe7;
+  background: #dfd5ff;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -244,7 +244,7 @@ nav .link:hover {
 }
 
 .hero-background-2 .plink {
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(33, 33, 33);
   font-family: "Open Sans";
   font-size: 1em;
