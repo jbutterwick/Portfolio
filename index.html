@@ -1,79 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Jordan Butterwick</title>
+  </head>
 
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./styles/styles.css" />
-  <title>Jordan Butterwick</title>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <div class="nav-background">
-        <ul class="nav-bar">
+  <body>
+    <header>
+      <nav>
+        <div class="nav-background">
+          <ul class="nav-bar">
+            <li>
+              <a href="https://github.com/Jordanwbutterwick" class="link">My Github</a>
+            </li>
+            <li>
+              <button onclick="myFunction()" class="dropbtn">
+                My Projects <i class="fas fa-angle-down"></i>
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="./pages/lyricfetch.html">Lyric Finder</a>
+                <a href="https://stylepickr.jordanwb.design">Stylepickr</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero-background">
+          <div class="content">
+            <h1>Jordan Butterwick</h1>
+            <h2>email: jordanwbutterwick@gmail.com</h2>
+          </div>
+        </div>
+      </div>
+      <div class="future-project-box"></div>
+    </main>
+    <footer>
+      <div class="footer">
+        <ul class="footer-links">
           <li>
-            <a href="https://github.com/Jordanwbutterwick" class="link">My Github</a>
+            <a href="https://github.com/Jordanwbutterwick">
+              <i class="fab fa-github fa-3x icon"></i
+            ></a>
           </li>
           <li>
-            <button onclick="myFunction()" class="dropbtn">
-              My Projects <i class="fas fa-angle-down"></i>
-            </button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="./pages/lyricfetch.html">Lyric Finder</a>
-              <a href="https://stylepickr.jordanwb.design">Stylepickr</a>
-              <a href="https://bugs.jordanwb.design">Cool Bugs</a>
-              <a href="https://plants.jordanwb.design">Cool Plants</a>
-            </div>
+            <a href="https://www.facebook.com/jordan.butterwick">
+              <i class="fab fa-facebook-f fa-3x icon"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/jwbutterwick">
+              <i class="fab fa-twitter fa-3x icon"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/jordan.w.b/">
+              <i class="fab fa-instagram fa-3x icon"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jordanwb/">
+              <i class="fab fa-linkedin-in fa-3x icon"></i>
+            </a>
           </li>
         </ul>
       </div>
-    </nav>
-  </header>
-  <main>
-    <div class="hero">
-      <div class="hero-background">
-        <div class="content">
-          <h1>Jordan Butterwick</h1>
-          <h2>email: jordanwbutterwick@gmail.com</h2>
-        </div>
-      </div>
-    </div>
-    <div class="future-project-box"></div>
-  </main>
-  <footer>
-    <div class="footer">
-      <ul class="footer-links">
-        <li>
-          <a href="https://github.com/Jordanwbutterwick">
-            <i class="fab fa-github fa-3x icon"></i></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/jordan.butterwick">
-            <i class="fab fa-facebook-f fa-3x icon"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/jwbutterwick">
-            <i class="fab fa-twitter fa-3x icon"></i></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/jordan.w.b/">
-            <i class="fab fa-instagram fa-3x icon"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/jordanwb/">
-            <i class="fab fa-linkedin-in fa-3x icon"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  <script src="./scripts/scripts.js"></script>
-</body>
-
+    </footer>
+    <script src="./scripts/scripts.js"></script>
+  </body>
 </html>
