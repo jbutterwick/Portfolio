@@ -187,7 +187,7 @@ nav .link:hover {
   max-width: 75%;
   height: 65vh;
   clip-path: polygon(0px 100%, 100% 70%, 100% 0px, 0px 0px);
-  background: #dfd5ff;
+  background: #d4d3da;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -221,7 +221,7 @@ nav .link:hover {
   max-width: 75%;
   height: 65vh;
   clip-path: polygon(0px 70%, 100% 90%, 100% 0px, 0px 0px);
-  background: #dfd5ff;
+  background: #d4d3da;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
