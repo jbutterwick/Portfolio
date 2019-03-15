@@ -259,6 +259,12 @@ nav .link:hover {
   -webkit-background-clip: text;
 }
 
+@media (max-width: 1000px) {
+  .hero-2 {
+    max-width: 100%;
+  }
+}
+
 #results p {
   font-size: 1em;
   font-family: "Open Sans";
@@ -329,5 +335,5 @@ footer a {
 }
 
 .icon:hover {
-  color: #75e29d;
+  color: #949494;
 }
