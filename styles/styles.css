@@ -68,7 +68,6 @@ nav .link {
   color: #252525;
   font-family: "Open Sans";
   font-size: 1.4em;
-  margin-left: 7px;
 }
 
 nav .link:hover {
@@ -97,7 +96,8 @@ nav .link:hover {
   font-family: "Open Sans";
   font-size: 1.4em;
   border-color: transparent;
-  border-radius: 10px;
+  border: 0;
+  padding: 0;
   cursor: pointer;
 }
 
