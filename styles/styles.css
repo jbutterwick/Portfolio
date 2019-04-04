@@ -6,6 +6,7 @@ body {
 
 ul {
   list-style: none;
+  text-align: left;
 }
 
 h1 {
@@ -29,6 +30,12 @@ h3 {
 }
 
 p {
+  color: #252525;
+  font-family: "Open Sans";
+  font-size: 1em;
+}
+
+li {
   color: #252525;
   font-family: "Open Sans";
   font-size: 1em;
@@ -187,7 +194,7 @@ nav .link:hover {
   max-width: 75%;
   height: 65vh;
   clip-path: polygon(0px 100%, 100% 70%, 100% 0px, 0px 0px);
-  background: #d4d3da;
+  background: #e9e5f5;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -336,4 +343,12 @@ footer a {
 
 .icon:hover {
   color: #949494;
+}
+
+/* ---------pricing page styles---------- */
+
+.price-list {
+  display: flex;
+  flex-flow: column wrap;
+  width: 375px;
 }
