@@ -4,6 +4,11 @@ body {
   margin: 0px;
 }
 
+::selection {
+  color: aliceblue;
+  background-color: rgb(49, 202, 164);
+}
+
 ul {
   list-style: none;
   text-align: left;
